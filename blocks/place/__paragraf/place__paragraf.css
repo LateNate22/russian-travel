@@ -1,0 +1,27 @@
+.place__paragraf {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    max-width: 456px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.place__paragraf:last-of-type {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) and (max-width: 320px) {
+    .place__paragraf {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraf {
+        max-width: 288px;
+        margin-left: 16px;
+    }
+}
