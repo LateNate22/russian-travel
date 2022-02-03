@@ -3,7 +3,28 @@
     margin: 0 auto;
     text-decoration: none;
     position: relative;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+.cover::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    left: 0;
+    top: 0;
+    background-color: #2a2c2f;
+    opacity: 0.3;
+    transition: opacity 2s ease;
+    }
+    
+    .cover:hover::before {
+        opacity: 0.8;
+        transition: opacity 2s ease;
+    }
 
 @media screen and (max-width: 1024px) {
     .cover {
