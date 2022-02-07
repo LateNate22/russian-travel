@@ -1,4 +1,4 @@
-.place__url_heading {
+.place__url-heading {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     line-height: 20px;
@@ -9,8 +9,7 @@
 }
 
 @media screen and (max-width: 768px) and (max-width: 320px) {
-    .place__url_heading {
+    .place__url-heading {
         line-height: 12px;
     }
-    
 }
