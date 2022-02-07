@@ -11,21 +11,18 @@
 
 @media screen and (max-width: 1024px) {
     .cover__overlay {
-        /* max-height: 640px; */
         padding: 295px 232px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__overlay {
-        /* max-height: 480px; */
         padding: 115px 104px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__overlay {
-        /* max-height: 200px; */
         padding: 33px 16px;
     }
 }

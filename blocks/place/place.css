@@ -21,11 +21,13 @@
 @media screen and (max-width: 768px) {
     .place {
         column-gap: 28px;
+        margin-bottom: 73px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .place {
         grid-template-columns: 1fr;
+        margin-bottom: 50px;
     }
 }
